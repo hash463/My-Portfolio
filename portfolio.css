@@ -22,6 +22,7 @@ nav{
     padding-right: 8%;
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 .brand{
     color: white;
@@ -116,7 +117,7 @@ h4{
 }
 .education{
     width: 100%;
-    padding: 100px 0px;
+    padding-top: 100px;
 }
 .title h2{
     color: white;
@@ -126,15 +127,25 @@ h4{
     text-align: center;
 }
 .box{
-
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 400px;
 }
-.sub-box{
-    height: 330px;
+.sub-box1{
+    height: 315px;
     width: 450px;
+    padding: 20px 35px;
+    background: #404040;
+    border-radius: 20px;
+    margin:15px;
+    position: relative;
+    text-align: center;
+}
+.sub-box2{
+    height: 325px;
+    width: 650px;
     padding: 20px 35px;
     background: #404040;
     border-radius: 20px;
@@ -159,6 +170,14 @@ h5{
     font-size: 20px;
     line-height: 27px;
     margin-bottom: 25px;
+}
+.projects{
+    width: 100%;
+    padding-top: 100px;
+}
+.skills{
+    width: 100%;
+    padding: 100px 0px 0px 0px;
 }
 body{
     background-color: rgb(23, 23, 23);
