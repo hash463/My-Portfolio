@@ -74,6 +74,10 @@ h1{
     margin: 20px 0px 20px;
     font-size: 75px;
 }
+h2{
+    color: yellow;
+    font-size: 30px;
+}
 h3{
     color: white;
     font-size: 25px;
@@ -178,6 +182,71 @@ h5{
 .skills{
     width: 100%;
     padding: 100px 0px 0px 0px;
+}
+.talent img{
+    padding-right: 10px;
+    border-radius: 50%;
+}
+.certifications{
+    width: 100%;
+    padding-top: 100px;
+}
+/* .merit-box{
+    height: 100px;
+    width: 1400px;
+    padding: 20px 35px;
+    background: #404040;
+    border-radius: 20px;
+    margin:15px;
+    position: relative;
+    text-align: center;
+} */
+.merit-box{
+    margin: 90px auto;
+    width: 900px;
+    border-left: 2px solid yellow;
+    padding: 0 20px 0px 30px;
+}
+.sub-merit{
+    background-color: #404040;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 1px solid #404040;
+    line-height: 1.7;
+    position: relative;
+    height: 110 px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sub-merit p{
+    color: white;
+    font-size: 20px;
+}
+.sub-merit a{
+    color: white;
+}
+.sub-merit:before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 3px solid black;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+}
+.sub-merit:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #404040 transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
 }
 body{
     background-color: rgb(23, 23, 23);
